@@ -1,0 +1,8 @@
+package com.myspace.getting_started;
+
+rule 'hello'
+when
+    $name: String()
+then
+    System.out.println("Hello " + $name);
+end
